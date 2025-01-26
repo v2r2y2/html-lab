@@ -5,32 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Moussa</title> 
     <style>h1 {text-align: center;}
-        .center {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-}
-figure {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 20px;
-}
-
-figcaption {
-  text-align: center;
-  font-style: italic;
-}
     </style>
 </head>
 <body>
 <header>
-    <h1>GOMYCODE</h1>
-    <section>
-        <figure><img src="/Users/marcbookairm1/Desktop/pic.jpeg" alt="pic.jpeg" class="center"
-        style="width: 700px; height: auto;">
-        <figcaption>GOMYCODE LOGO</figcaption>
-        </figure></section>
+    <h1>My Portfolio</h1>
+
 </header>
 <nav>
     <ul>
@@ -41,14 +21,30 @@ figcaption {
          <li><a href="#contact">Contact</a></li>  
      </ul>
  </nav>
- <section id="Home">
-    <h2>Home section </h2>
- </section>
- <section id="About">
-    <h2>About</h2>
- </section>
- <section id="Work">
-    <h2>Work</h2>
- </section>
+     <section id="About">
+         <h2><u>About me</u></h2>
+         <p>Je me nomme Bagayoko Moussa je suis passionné d'informatique,
+            <br>et je souhaiterai faire carrière dans le developpement full stack.</p>
+     </section>
+     <section id="Work">
+         <h2><u>Work</u></h2>
+         <p>Etant encore en formation je n'ai aucun projet à mon actif</p>
+     </section>
+     <section id="Resume">
+         <h2><u>Resume</u></h2>
+     </section>
+     <section id="Contact">
+        <h2><u>Contact me</u></h2>
+         <form action="mailto:m.bakayoko328@gmail.com" method="post" enctype="text/plain">
+         <label for="name">Name</label><br>
+         <input type="text" id="name" name="name" required><br><br>
+         <label for="email">Email</label><br>
+         <input type="email" id="email" name="email" required><br><br>
+         <label for="message">Message</label><br>
+         <textarea id="message" name="message" rows="5
+         " required></textarea><br><br>
+         <input type="submit" value="Send Message">
+         </form>
+     </section>
 
 <body/>
