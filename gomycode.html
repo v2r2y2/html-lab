@@ -3,30 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio Moussa</title> 
-    <style>
-     header {
-      background-color: black; 
-      color: #fff; 
-      padding: 20px 0; 
-      text-align: center;
-    }
-
-     .PF {text-align: center;
-        background-color: black;
-        padding: 20px 0;
-        font-weight: bold;
-        color: white;
-    }
-     .pic { width: 200px;
-        height: auto;
-     }
-    </style>
 </head>
 <body>
 <header>
     <h1>My Portfolio</h1>
-    
 </header>
 <!--here is my Navbar-->
 <nav>
@@ -38,27 +20,25 @@
          <li><a href="#contact">Contact</a></li>  
      </ul>
  </nav>
- <div style="text-align: center;">
-    <figure>
-    <img class="pic" src="/Users/marcbookairm1/Desktop/gmde/pic2.JPG" alt="pic2.JPG">
-    <figcaption style="text-align: center; font-style: italic;">Photo prise lors d'une séance de formation</figcaption>
-</figure>
-</div>
+
  <!--here are my sections-->
-     <section id="About">
+     <div class="container">
+     <section id="About" class="sections">
          <h2><u>About me</u></h2>
          <p>Je me nomme Bagayoko Moussa je suis passionné d'informatique,
-            <br>et je souhaiterai faire carrière dans le developpement web full stack.</p>
+            et je souhaiterai faire carrière dans le developpement web full stack.</p>
      </section>
-     <section id="Work">
+
+     <section id="Work" class="sections">
          <h2><u>Work</u></h2>
          <p>Etant encore en formation je n'ai aucun projet à mon actif.</p>
      </section>
-     <section id="Resume">
+
+     <section id="Resume" class="sections">
          <h2><u>Resume</u></h2>
          <p>Coming soon...</p>
      </section>
-     <section id="Contact">
+     <section id="Contact" class="sections">
         <h2><u>Contact me</u></h2>
          <form action="mailto:m.bakayoko328@gmail.com" method="post" enctype="text/plain">
          <label for="name">Name</label><br>
@@ -71,9 +51,10 @@
          <input type="submit" value="Send Message">
          </form><br>
      </section>
+    </div>
 <!--here is my Footer-->
 <footer>
-    <p class="PF">&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    <p class="footer">&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
 </footer>
  </body>
 </html>
